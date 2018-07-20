@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CCB92C52101608700638C83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB92C42101608700638C83 /* AppDelegate.swift */; };
+		2CCB92C72101608700638C83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB92C62101608700638C83 /* ViewController.swift */; };
+		2CCB92CA2101608800638C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB92C82101608800638C83 /* Main.storyboard */; };
+		2CCB92CD2101608800638C83 /* Gearhead5k.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB92CB2101608800638C83 /* Gearhead5k.xcdatamodeld */; };
+		2CCB92CF2101608800638C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB92CE2101608800638C83 /* Assets.xcassets */; };
+		2CCB92D22101608800638C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB92D02101608800638C83 /* LaunchScreen.storyboard */; };
+		2CCB92DD2101608900638C83 /* Gearhead5kTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB92DC2101608900638C83 /* Gearhead5kTests.swift */; };
+		2CCB92E82101608900638C83 /* Gearhead5kUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB92E72101608900638C83 /* Gearhead5kUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CCB92D92101608900638C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CCB92B92101608700638C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CCB92C02101608700638C83;
+			remoteInfo = Gearhead5k;
+		};
+		2CCB92E42101608900638C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CCB92B92101608700638C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CCB92C02101608700638C83;
+			remoteInfo = Gearhead5k;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CCB92C12101608700638C83 /* Gearhead5k.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gearhead5k.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB92C42101608700638C83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CCB92C62101608700638C83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CCB92C92101608800638C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CCB92CC2101608800638C83 /* Gearhead5k.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gearhead5k.xcdatamodel; sourceTree = "<group>"; };
+		2CCB92CE2101608800638C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CCB92D12101608800638C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CCB92D32101608800638C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCB92D82101608900638C83 /* Gearhead5kTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gearhead5kTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB92DC2101608900638C83 /* Gearhead5kTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gearhead5kTests.swift; sourceTree = "<group>"; };
+		2CCB92DE2101608900638C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCB92E32101608900638C83 /* Gearhead5kUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Gearhead5kUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCB92E72101608900638C83 /* Gearhead5kUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gearhead5kUITests.swift; sourceTree = "<group>"; };
+		2CCB92E92101608900638C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCB92BE2101608700638C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB92D52101608900638C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB92E02101608900638C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CCB92B82101608700638C83 = {
+			isa = PBXGroup;
+			children = (
+				2CCB92C32101608700638C83 /* Gearhead5k */,
+				2CCB92DB2101608900638C83 /* Gearhead5kTests */,
+				2CCB92E62101608900638C83 /* Gearhead5kUITests */,
+				2CCB92C22101608700638C83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCB92C22101608700638C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB92C12101608700638C83 /* Gearhead5k.app */,
+				2CCB92D82101608900638C83 /* Gearhead5kTests.xctest */,
+				2CCB92E32101608900638C83 /* Gearhead5kUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCB92C32101608700638C83 /* Gearhead5k */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB92C42101608700638C83 /* AppDelegate.swift */,
+				2CCB92C62101608700638C83 /* ViewController.swift */,
+				2CCB92C82101608800638C83 /* Main.storyboard */,
+				2CCB92CE2101608800638C83 /* Assets.xcassets */,
+				2CCB92D02101608800638C83 /* LaunchScreen.storyboard */,
+				2CCB92D32101608800638C83 /* Info.plist */,
+				2CCB92CB2101608800638C83 /* Gearhead5k.xcdatamodeld */,
+			);
+			path = Gearhead5k;
+			sourceTree = "<group>";
+		};
+		2CCB92DB2101608900638C83 /* Gearhead5kTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB92DC2101608900638C83 /* Gearhead5kTests.swift */,
+				2CCB92DE2101608900638C83 /* Info.plist */,
+			);
+			path = Gearhead5kTests;
+			sourceTree = "<group>";
+		};
+		2CCB92E62101608900638C83 /* Gearhead5kUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB92E72101608900638C83 /* Gearhead5kUITests.swift */,
+				2CCB92E92101608900638C83 /* Info.plist */,
+			);
+			path = Gearhead5kUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCB92C02101608700638C83 /* Gearhead5k */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCB92EC2101608900638C83 /* Build configuration list for PBXNativeTarget "Gearhead5k" */;
+			buildPhases = (
+				2CCB92BD2101608700638C83 /* Sources */,
+				2CCB92BE2101608700638C83 /* Frameworks */,
+				2CCB92BF2101608700638C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gearhead5k;
+			productName = Gearhead5k;
+			productReference = 2CCB92C12101608700638C83 /* Gearhead5k.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CCB92D72101608900638C83 /* Gearhead5kTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCB92EF2101608900638C83 /* Build configuration list for PBXNativeTarget "Gearhead5kTests" */;
+			buildPhases = (
+				2CCB92D42101608900638C83 /* Sources */,
+				2CCB92D52101608900638C83 /* Frameworks */,
+				2CCB92D62101608900638C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CCB92DA2101608900638C83 /* PBXTargetDependency */,
+			);
+			name = Gearhead5kTests;
+			productName = Gearhead5kTests;
+			productReference = 2CCB92D82101608900638C83 /* Gearhead5kTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CCB92E22101608900638C83 /* Gearhead5kUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCB92F22101608900638C83 /* Build configuration list for PBXNativeTarget "Gearhead5kUITests" */;
+			buildPhases = (
+				2CCB92DF2101608900638C83 /* Sources */,
+				2CCB92E02101608900638C83 /* Frameworks */,
+				2CCB92E12101608900638C83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CCB92E52101608900638C83 /* PBXTargetDependency */,
+			);
+			name = Gearhead5kUITests;
+			productName = Gearhead5kUITests;
+			productReference = 2CCB92E32101608900638C83 /* Gearhead5kUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCB92B92101608700638C83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Michael Ford";
+				TargetAttributes = {
+					2CCB92C02101608700638C83 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					2CCB92D72101608900638C83 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2CCB92C02101608700638C83;
+					};
+					2CCB92E22101608900638C83 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 2CCB92C02101608700638C83;
+					};
+				};
+			};
+			buildConfigurationList = 2CCB92BC2101608700638C83 /* Build configuration list for PBXProject "Gearhead5k" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CCB92B82101608700638C83;
+			productRefGroup = 2CCB92C22101608700638C83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCB92C02101608700638C83 /* Gearhead5k */,
+				2CCB92D72101608900638C83 /* Gearhead5kTests */,
+				2CCB92E22101608900638C83 /* Gearhead5kUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCB92BF2101608700638C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB92D22101608800638C83 /* LaunchScreen.storyboard in Resources */,
+				2CCB92CF2101608800638C83 /* Assets.xcassets in Resources */,
+				2CCB92CA2101608800638C83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB92D62101608900638C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB92E12101608900638C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCB92BD2101608700638C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB92C72101608700638C83 /* ViewController.swift in Sources */,
+				2CCB92C52101608700638C83 /* AppDelegate.swift in Sources */,
+				2CCB92CD2101608800638C83 /* Gearhead5k.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB92D42101608900638C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB92DD2101608900638C83 /* Gearhead5kTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCB92DF2101608900638C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCB92E82101608900638C83 /* Gearhead5kUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CCB92DA2101608900638C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CCB92C02101608700638C83 /* Gearhead5k */;
+			targetProxy = 2CCB92D92101608900638C83 /* PBXContainerItemProxy */;
+		};
+		2CCB92E52101608900638C83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CCB92C02101608700638C83 /* Gearhead5k */;
+			targetProxy = 2CCB92E42101608900638C83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CCB92C82101608800638C83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCB92C92101608800638C83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CCB92D02101608800638C83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CCB92D12101608800638C83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CCB92EA2101608900638C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CCB92EB2101608900638C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCB92ED2101608900638C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5955R76AX5;
+				INFOPLIST_FILE = Gearhead5k/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Gearhead5k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CCB92EE2101608900638C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5955R76AX5;
+				INFOPLIST_FILE = Gearhead5k/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Gearhead5k;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CCB92F02101608900638C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5955R76AX5;
+				INFOPLIST_FILE = Gearhead5kTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Gearhead5kTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gearhead5k.app/Gearhead5k";
+			};
+			name = Debug;
+		};
+		2CCB92F12101608900638C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5955R76AX5;
+				INFOPLIST_FILE = Gearhead5kTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Gearhead5kTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gearhead5k.app/Gearhead5k";
+			};
+			name = Release;
+		};
+		2CCB92F32101608900638C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5955R76AX5;
+				INFOPLIST_FILE = Gearhead5kUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Gearhead5kUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gearhead5k;
+			};
+			name = Debug;
+		};
+		2CCB92F42101608900638C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5955R76AX5;
+				INFOPLIST_FILE = Gearhead5kUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Gearhead5kUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Gearhead5k;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCB92BC2101608700638C83 /* Build configuration list for PBXProject "Gearhead5k" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB92EA2101608900638C83 /* Debug */,
+				2CCB92EB2101608900638C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCB92EC2101608900638C83 /* Build configuration list for PBXNativeTarget "Gearhead5k" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB92ED2101608900638C83 /* Debug */,
+				2CCB92EE2101608900638C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCB92EF2101608900638C83 /* Build configuration list for PBXNativeTarget "Gearhead5kTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB92F02101608900638C83 /* Debug */,
+				2CCB92F12101608900638C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCB92F22101608900638C83 /* Build configuration list for PBXNativeTarget "Gearhead5kUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCB92F32101608900638C83 /* Debug */,
+				2CCB92F42101608900638C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CCB92CB2101608800638C83 /* Gearhead5k.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CCB92CC2101608800638C83 /* Gearhead5k.xcdatamodel */,
+			);
+			currentVersion = 2CCB92CC2101608800638C83 /* Gearhead5k.xcdatamodel */;
+			path = Gearhead5k.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CCB92B92101608700638C83 /* Project object */;
+}
